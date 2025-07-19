@@ -9,7 +9,11 @@ describe('repeatString', () => {
       'hellohellohellohellohellohellohellohellohellohello'
     );
   });
+<<<<<<< HEAD
   test('repeats the string 1 times', () => {
+=======
+  test.skip('repeats the string 1 time', () => {
+>>>>>>> b35a9bedb6dcc138ca2df27d2d6c35e343c7c939
     expect(repeatString('hi', 1)).toEqual('hi');
   });
   test('repeats the string 0 times', () => {
